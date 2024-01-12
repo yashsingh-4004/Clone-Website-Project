@@ -137,25 +137,22 @@
     <Main>
         <!-- Image Slider -->
 
-        <div class="imgSlider">
-            <div class="Slider-Images">
-                <div>
-                    <img src="images/Slider1.webp">
-                </div>
-                <div>
-                    <img src="images/Slider2.webp">
-                </div>
-                <div>
-                    <img src="images/Slider3.webp">
-                </div>
-                <div>
-                    <img src="images/Slider4.webp">
-                </div>
-                <div>
-                    <img src="images/Slider5.webp">
-                </div>
-            </div>
-        </div>
+       <div class="Image-Slider">
+            <img src="images/Slider1.webp" class="slide">
+            <img src="images/Slider2.webp" class="slide">
+            <img src="images/Slider3.webp" class="slide">
+            <img src="images/Slider4.webp" class="slide">
+            <img src="images/Slider5.webp" class="slide">
+       </div>
+
+       <div class="nav">
+        <button onClick="GoPrev()">
+            pre
+        </button>
+        <button onClick="GoNext()">
+            next 
+        </button>
+       </div>
 
 
 
@@ -167,6 +164,6 @@
 
 
 
-
+<script src="app.js"></script>
 </body>
 </html>

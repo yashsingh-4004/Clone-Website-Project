@@ -131,13 +131,21 @@
 
 /* 1. Image Slider */
 
-.imageSlider{
+.Image-Slider{
     width:100%;
     height:466px;
-    background-color:grey;
+    background-color:gray;
+    position: relative;
+    overflow:hidden;
 }
 
-.Slider-Images{
-    display:flex;
-    
+.slide{
+    height:466px;
+    width:100%;
+    position:absolute;
+    transition:1s;
+}
+
+.nav{
+    text-align: center;
 }
