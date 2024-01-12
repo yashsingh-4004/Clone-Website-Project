@@ -149,3 +149,28 @@
 .nav{
     text-align: center;
 }
+
+.PrevBtn{
+    position:relative;
+    bottom:257px;
+    right:620px;
+    background-color:transparent;
+    color:white;
+    height:55px;
+    width:40px;
+    font-size:25px;
+    border:none;
+    font-weight: bolder;
+}
+
+.NextBtn{
+    position:relative;
+    bottom:257px;
+    left:620px;
+    background-color:transparent;
+    color:white;
+    height:55px;
+    width:40px;
+    font-size:25px;
+    border:none;
+}

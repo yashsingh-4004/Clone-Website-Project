@@ -8,13 +8,25 @@ slides.forEach(
 );
 
 const GoPrev = () =>{
+    if(counter===0){
+        counter=slides.length-1;
+        SlideImage();
+    }
+    else{
     counter--;
     SlideImage();
+    }
 } 
 
 const GoNext = () =>{
+    if(counter==slides.length-1){
+        counter=0;
+        SlideImage();
+    }
+    else{
     counter++;
     SlideImage();
+    }
 } 
 
 const SlideImage = () =>{
