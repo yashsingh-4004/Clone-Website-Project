@@ -7,23 +7,15 @@ slides.forEach(
     }
 );
 
-
-
 const GoPrev = () =>{
     counter--;
     SlideImage();
 } 
 
-
 const GoNext = () =>{
     counter++;
     SlideImage();
 } 
-
-
-
-
-
 
 const SlideImage = () =>{
     slides.forEach(
