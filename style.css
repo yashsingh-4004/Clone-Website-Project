@@ -148,6 +148,7 @@
 
 .nav{
     text-align: center;
+    height:0px;
 }
 
 .PrevBtn{
@@ -174,3 +175,111 @@
     font-size:25px;
     border:none;
 }
+
+
+
+
+
+/* Categories Section */
+
+.Categories-section{
+    height:1140px;
+    width:100%;
+    /* background-color: grey; */
+}
+
+h3{
+    width:100%;
+    margin-top:20px;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+}
+
+.Categories{
+    display:flex;
+    justify-content: space-around;
+    margin-top:10px;
+}
+
+
+.Categories div{
+    height:400px;
+    width:430px;
+    /* background-color:red; */
+    /* border:2px solid black; */
+}
+
+.more-cats{
+    display:flex;
+    justify-content: space-around;
+    margin-top:15px;
+    flex-wrap: wrap;
+}
+
+.more-cats div{
+    height:320px;
+    width:320px;
+    /* background-color:red; */
+    /* border:2px solid black; */
+    margin-top:10px;
+}
+
+
+.sweatshirt{
+    background-image:url(images/Categories/Sweatshirt.webp);
+    background-size: cover;
+}
+
+.hoodies{
+    background-image:url(images/Categories/Hoodies.webp);
+    background-size: cover;
+}
+
+.jackets{
+    background-image:url(images/Categories/Jackets.webp);
+    background-size: cover;
+}
+
+
+.OS-full-sleeve-tees{
+    background-image:url(images/Categories/OS-full-sleeve-tees.webp);
+    background-size: cover;
+}
+
+.shirt{
+    background-image:url(images/Categories/Shirts.webp);
+    background-size: cover;
+}
+
+.sneakers{
+    background-image:url(images/Categories/Sneakers.webp);
+    background-size: cover;
+}
+
+.OS-tees{
+    background-image:url(images/Categories/OS-tees.webp);
+    background-size: cover;
+}
+
+.tees{
+    background-image:url(images/Categories/tees.webp);
+    background-size: cover;
+}
+
+.cargo-pants{
+    background-image:url(images/Categories/Cargo-pants.webp);
+    background-size: cover;
+}
+
+.OS-polos{
+    background-image:url(images/Categories/OS-polos.webp);
+    background-size: cover;
+}
+
+.jeans{
+    background-image:url(images/Categories/Jeans.webp);
+    background-size: cover;
+}
+
+
