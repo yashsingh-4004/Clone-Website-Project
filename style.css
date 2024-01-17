@@ -283,3 +283,153 @@ h3{
 }
 
 
+
+
+
+/* New Arrival Section */
+
+h3{
+    width:100%;
+    margin-top:20px;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+}
+
+.New-Arrivals-Divslider{
+    height:502px;
+    width:100%;
+    /* background-color:gray; */
+    position: relative;
+    overflow:hidden;
+    margin-top:20px;
+}
+
+.divSlide-G1{
+    height:500px;
+    width:100%;
+    /* background-color:aqua; */
+    /* border:2px solid black; */
+}
+
+.divSlide-G2{
+    height:500px;
+    width:100%;
+    /* background-color:aqua; */
+    /* border:2px solid black; */
+}
+
+.divSlide{
+    position: absolute;
+    transition:1s;
+}
+
+.divnav{
+    text-align:center;
+}
+
+.New-Arrivals-Divslider .divSlide{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.New-Arrivals-Divslider .divSlide .prods{
+    height:475px;
+    width:300px;
+    /* border:2px solid black; */
+    margin-top:10px;
+}
+
+.prodImgdiv{
+    height:382px;
+    width:275px;
+    /* border:2px solid black; */
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.prodInfodiv{
+    height:70px;
+    width:275px;
+    /* border:2px solid black; */
+    margin-top:3px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.New-Arrivals-Divslider .divSlide .prods .prodInfodiv p{
+    margin-top:5px;
+    font-weight:600;
+    font-style:ariel;
+    font-size:15px;
+}
+
+.prod-disc{
+    color:red;
+    position: absolute;
+    top:446px;
+    left:150px;
+}
+
+.divnav button{
+    height:55px;
+    width:40px;
+    font-size:50px;
+    background-color:transparent;
+    border:none;
+    color:grey;
+}
+
+.New-Arrival-div-Goprev{
+    position: relative;
+    bottom:265px;
+    right:615px;
+}
+
+.New-Arrival-div-Gonext{
+    position: relative;
+    bottom:265px;
+    left:615px;
+}
+
+.prod-image1{
+    background-image:url(images/New-Arrivals/prod1.webp);
+    background-size: cover;
+}
+
+.prod-image2{
+    background-image:url(images/New-Arrivals/prod2.webp);
+    background-size: cover;
+}
+
+.prod-image3{
+    background-image:url(images/New-Arrivals/prod3.webp);
+    background-size: cover;
+}
+
+.prod-image4{
+    background-image:url(images/New-Arrivals/prod4.webp);
+    background-size: cover;
+}
+
+.prod-image5{
+    background-image:url(images/New-Arrivals/prod5.webp);
+    background-size: cover;
+}
+
+.prod-image6{
+    background-image:url(images/New-Arrivals/prod6.webp);
+    background-size: cover;
+}
+
+.prod-image7{
+    background-image:url(images/New-Arrivals/prod7.webp);
+    background-size: cover;
+}
+
+.prod-image8{
+    background-image:url(images/New-Arrivals/prod8.webp);
+    background-size: cover;
+}
+
